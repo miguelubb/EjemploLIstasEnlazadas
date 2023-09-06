@@ -1,6 +1,6 @@
 public class Lista {
     Nodo head;
-   // Nodo back; tarea agregar una referencia al último para que la inserción al final sea O(1)
+   // TAREA 1 agregar una referencia al último para que la inserción al final sea O(1)
 
     public Lista() {
     }
@@ -47,5 +47,12 @@ public class Lista {
         System.out.println("]");
     }
 
+    public int size(){
+        //TAREA 2:
+        // a) calcular el size
+        // b) t(n)=?, O(?) justifique.
+
+        return 0;
+    }
 
 }
